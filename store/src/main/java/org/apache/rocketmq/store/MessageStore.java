@@ -392,7 +392,7 @@ public interface MessageStore {
 
     /**
      * handle
-     * @param brokerRole
+     * @param brokerRole brokerRole
      */
     void handleScheduleMessageService(BrokerRole brokerRole);
 }
